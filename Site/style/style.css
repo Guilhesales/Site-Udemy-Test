@@ -1,4 +1,27 @@
-html{
+/* família de fontes: 'Noto Sans Armenian', sans-serif;
+família de fontes: 'Noto Sans Pahawh Hmong', sans-serif; */
+/* Noto Sans Pahawh Hmong - Regular 400 */
+/* Noto Sans Armênio - Fino 100 | ExtraLight 200 | ExtraBold 800 */
+
+*{
     padding: 0;
     margin: 0;
+}
+
+body{
+    font-family:'Noto Sans Pahawh Hmong', sans-serif;
+}
+
+h1{
+    font-family: "Noto Sans Armenian", sans-serif;
+    
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
 }
