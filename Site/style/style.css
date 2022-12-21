@@ -77,6 +77,11 @@ a {
 
 .menu h1{
     font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a {
+    color: inherit;
 }
 
 .menu-content{
