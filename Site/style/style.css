@@ -87,6 +87,9 @@ a {
 .menu-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .menu ul{
@@ -95,5 +98,7 @@ a {
 }
 
 .menu ul li a {
-    display: block
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
 }
