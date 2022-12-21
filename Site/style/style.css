@@ -4,9 +4,10 @@ família de fontes: 'Noto Sans Pahawh Hmong', sans-serif; */
 /* Noto Sans Armênio - Fino 100 | ExtraLight 200 | ExtraBold 800 */
 :root{
     --primary-color:background-color: #8FFF31;
-    --light-gay-color: #eeeeee
+    --light-gay-color: #eeeeee;
     --color-white: #ffffff;
     --gap: 3rem;
+    --ver-cri: crimson;
     
 }
 
@@ -74,6 +75,7 @@ a {
     left: 0;
     right: 0;
     width: 100%;
+    border: 1px solid var(--light-gay-color)
 }
 
 
@@ -104,3 +106,28 @@ a {
     padding: 2rem;
     font-size: 1.8rem;
 }
+
+.menu ul li a {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
