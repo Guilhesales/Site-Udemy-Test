@@ -23,3 +23,34 @@
 .section-vh{
     min-height: 100vh;
 }
+
+.menu-spacing{
+    height: 65px;
+}
+/* Intro */
+/* Intro */
+/* Intro */
+.intro-content{
+    position: relative;
+    top: -8rem;
+    display:grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap:var(--gap);
+    height:100vh;
+}
+
+.intro-text-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+}
+
+.intro-text-content h1{
+    font-size: 8rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.intro-text-content p {
+    line-height: 1.8rem;
+}
