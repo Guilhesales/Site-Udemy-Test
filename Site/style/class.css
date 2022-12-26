@@ -39,7 +39,7 @@
     height:100vh;
 }
 
-.intro-text-content{
+.intro-text-content, .intro-img{
     display: flex;
     flex-flow: column wrap;
     justify-content: center; 
@@ -53,4 +53,9 @@
 
 .intro-text-content p {
     line-height: 1.8rem;
+}
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
 }
