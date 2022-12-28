@@ -5,6 +5,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -31,4 +32,8 @@ h4{
 
 a {
     text-decoration: none;
+}
+
+p{
+    margin-bottom: 3rem;
 }
