@@ -80,6 +80,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: var(--gap);
-    counter-reset: grid-counter; 
+    counter-reset: grid-counter;
 }
-.grid h3::before {}
+
+.grid h3{
+    font-size: 3.5rem;
+    position: relative;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+}
+
+
+
+.grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 9rem;
+    font-style: italic;
+    top: -5rem;
+    left: -2rem;
+    transform: rotate(5.5deg)
+
+}
