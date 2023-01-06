@@ -31,6 +31,10 @@
     margin-bottom: 1rem;
 }
 
+.grid-description{
+    margin-bottom: 7rem
+}
+
 .grid h3::before {
     counter-increment: grid-counter;
     content: counter(grid-counter);
