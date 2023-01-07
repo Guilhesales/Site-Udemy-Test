@@ -9,7 +9,7 @@
 .main-content{
     max-width: 120rem;
     margin:0 auto;
-    padding:var(--gap)
+    padding: 8rem var(--gap)
 }
 
 .white-bg {
@@ -37,7 +37,7 @@
     display:grid;
     grid-template-columns: 1fr 1.7fr;
     gap:var(--gap);
-    height:100vh;
+    min-height:100vh;
 }
 
 .intro-text-content, .intro-img{
@@ -66,7 +66,7 @@
     max-width: 64rem;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
